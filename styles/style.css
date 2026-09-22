@@ -1,0 +1,26 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  height: 100dvh;
+  background: #fff;
+}
+
+.page {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 5fr 1fr;
+}
+
+
+.palette {
+  display: grid;
+  gap: 1.5vmin;
+  padding: 1.5vmin;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  min-height: 0;
+}
