@@ -24,3 +24,16 @@ body {
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   min-height: 0;
 }
+
+/* Grid items: placed between the grid lines (start / end) */
+.b1  { grid-row: 1 / 4;   grid-column: 1 / 3;  background: #ccc; }
+.b2  { grid-row: 4 / 7;   grid-column: 1 / 3;  background: #ccc; }
+.b3  { grid-row: 1 / 7;   grid-column: 3 / 5;  background: #ccc; }
+.b4  { grid-row: 1 / 3;   grid-column: 5 / 7;  background: #ccc; }
+.b5  { grid-row: 3 / 5;   grid-column: 5 / 7;  background: #ccc; }
+.b6  { grid-row: 5 / 7;   grid-column: 5 / 7;  background: #ccc; }
+.b7  { grid-row: 7 / 11;  grid-column: 1 / 3;  background: #ccc; }
+.b8  { grid-row: 7 / 9;   grid-column: 3 / 4;  background: #ccc; }
+.b9  { grid-row: 9 / 11;  grid-column: 3 / 4;  background: #ccc; }
+.b10 { grid-row: 7 / 11;  grid-column: 4 / 6;  background: #ccc; }
+.b11 { grid-row: 7 / 11;  grid-column: 6 / 7;  background: #ccc; }
