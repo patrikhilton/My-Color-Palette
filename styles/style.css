@@ -48,3 +48,17 @@ body {
 .b9  { grid-row: 9 / 11;  grid-column: 3 / 4;  background: var(--c5); }
 .b10 { grid-row: 7 / 11;  grid-column: 4 / 6;  background: var(--c4); }
 .b11 { grid-row: 7 / 11;  grid-column: 6 / 7;  background: var(--c1); }
+
+
+.title {
+  margin: 0;
+  display: grid;
+  align-items: center;
+  padding-inline: 1.5vmin;
+  background: var(--title-bg);
+  color: var(--title-ink);
+  font-size: clamp(1.4rem, 6vmin, 4.5rem);
+  font-weight: 800;
+  text-transform: uppercase;
+  overflow: hidden;
+}
